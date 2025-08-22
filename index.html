@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wake Render</title>
+</head>
+<body>
+  <h1>Ping Render</h1>
+  <p>This page pings your Render app automatically.</p>
+
+  <script>
+    // Immediately ping your backend when the page loads
+    fetch("https://aunotes.onrender.com/")
+      .then(response => console.log("Ping success:", response.status))
+      .catch(error => console.error("Ping failed:", error));
+  </script>
+</body>
+</html>
