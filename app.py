@@ -12,6 +12,7 @@ WEBSITES = [
     "https://github.com",
     "https://sm-manager-ub0i.onrender.com",
     "https://aubot-1.onrender.com",
+    "https://aubot-1.onrender.com/log",
 ]
 
 # store latest ping results
